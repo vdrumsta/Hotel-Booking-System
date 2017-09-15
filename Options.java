@@ -978,7 +978,9 @@ public class Options {
 			
 			// check if the date is older than 7 years
 			String[] tempDate = date.split("/");
-			Calendar resDate = new GregorianCalendar(Integer.parseInt(tempDate[2]), Integer.parseInt(tempDate[1]) - 1, Integer.parseInt(tempDate[0])); 
+			for (int j = 0; i < tempDate.length; i++)
+				System.out.println(tempDate[i]);
+			Calendar resDate = new GregorianCalendar(2017, 11, 11); 
 			
 			// read individual room info
 			String[] temp2 = temp[8].split("\\+");
