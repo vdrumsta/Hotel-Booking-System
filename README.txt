@@ -2,7 +2,7 @@ This application can be running using the following commands:
 Compilation:
 	javac *.java
 Execution:
-	java TestProject
+	java HotelSimulation
 	
 A menu will prompt up asking you to select your user type. Once you do that you will need to log in with the appropriate details.
 A list of users are defined in the users file.
